@@ -17,7 +17,6 @@
 		0F81B957171C0F95004FFBFD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F81B956171C0F95004FFBFD /* Default@2x.png */; };
 		0F81B959171C0F95004FFBFD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F81B958171C0F95004FFBFD /* Default-568h@2x.png */; };
 		0F81B95C171C0F95004FFBFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F81B95B171C0F95004FFBFD /* ViewController.m */; };
-		0F81B95F171C0F95004FFBFD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F81B95D171C0F95004FFBFD /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +35,6 @@
 		0F81B958171C0F95004FFBFD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0F81B95A171C0F95004FFBFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0F81B95B171C0F95004FFBFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0F81B95E171C0F95004FFBFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +85,6 @@
 				0F81B952171C0F95004FFBFD /* AppDelegate.m */,
 				0F81B95A171C0F95004FFBFD /* ViewController.h */,
 				0F81B95B171C0F95004FFBFD /* ViewController.m */,
-				0F81B95D171C0F95004FFBFD /* ViewController.xib */,
 				0F81B949171C0F95004FFBFD /* Supporting Files */,
 			);
 			path = 1111;
@@ -162,7 +159,6 @@
 				0F81B955171C0F95004FFBFD /* Default.png in Resources */,
 				0F81B957171C0F95004FFBFD /* Default@2x.png in Resources */,
 				0F81B959171C0F95004FFBFD /* Default-568h@2x.png in Resources */,
-				0F81B95F171C0F95004FFBFD /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +184,6 @@
 				0F81B94C171C0F95004FFBFD /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		0F81B95D171C0F95004FFBFD /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0F81B95E171C0F95004FFBFD /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
